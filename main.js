@@ -19,7 +19,7 @@ client.on('message', message =>
 {
 	if(message.isMemberMentioned(client.user))
 	{
-		message.reply( '呼びましたか？' );
+		message.reply( 'hello' );
 		return;
 	}
 });
